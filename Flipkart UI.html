@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>flipkart</title>
+    <style>
+        *
+        {
+            margin:2px;
+        }
+        nav
+        {
+            display:flex;
+            justify-content:space-evenly;
+            align-items: center;
+            background-color: white;
+            width:100%;
+            height:70px;
+
+        }
+        body
+        {
+            background-color: rgb(241, 226, 226);
+            
+            
+        }
+        nav>.items>a
+        {
+            text-decoration: none;
+            color:black;
+            font-size: 20px;
+        }
+        nav>.items>.inp>input
+        {
+            width:300px;
+            border:none;
+            outline:none;
+            background-color: transparent;;
+        }
+        nav>.items>.inp
+        {
+            padding:4px;
+            background-color: rgb(225, 225, 243);
+            border-radius: 5px;
+        }
+        nav>.items>button
+        {
+            border:none;
+            background:none;
+            font-size: 20px;
+        }
+        nav>.items>button:hover
+        {
+            background-color:blue;
+            border-radius: 2px;
+            color:white;
+            padding:7px 5px;
+        }
+        .container
+        {
+            display: flex;
+            padding:10px;
+            background-color: white;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            height: 150px;
+            width:100%;
+            gap:10px;
+            margin:none;
+            align-content: space-around;
+            box-shadow: 0px 0px 10px 0px rgb(107, 102, 102);
+        }
+        img
+        {
+            height :110px;
+            width :110px;
+        }
+        h6
+        {
+            text-align: center;
+            font-family: italic;
+            font-size: 15px;
+        }
+        .products 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width:100%;
+            gap: 40px;
+            padding: 30px;
+            margin-top: 7px;
+            background-color: rgb(247, 240, 240);
+        }
+
+        .item 
+        {
+        background-color: none;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(211, 210, 210, 0.1);
+        }
+
+        .item img 
+        {
+        width: 280px;
+        height: 250px;
+        }
+
+        .item h2 
+        {
+        font-weight: bold;
+        }
+        .item button
+        {
+        background-color: black;
+        color: white;
+        padding:5px 10px;
+        border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="items"> 
+            <h2 style="color:blue; font-family:itali;">Flipkart</h2>
+            <span style="font-family: bold;">Explore</span>
+            <span style="color:orange; font-family:bold ;">plus</span>
+        </div>
+        <div class="items">
+            <div class="inp">
+                <span class="bi bi-search"></span>
+                <input type="text" placeholder="search for products, brands and more">
+            </div>
+        </div>
+        <div class="items">
+            <button><i class ="bi bi-person-circle"></i>Login<i class="bi bi-chevron-down"></i></button>
+        </div>
+        <div class="items">
+            <a href=""> <i class="bi bi-cart3"></i>Cart</a>
+        </div>
+        <div class="items">
+            <a href=""><i class="bi bi-shop-window"></i> Become a seller</a>
+        </div>
+        <div class="items">
+            <a href=""><i class="bi bi-three-dots-vertical"></i></a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class ="items">
+            <img src="assets/surf.jpg" alt="">
+            <h6>Kilos</i></h6>
+        </div>
+        <div class ="items">
+            <img src="assets/mobiles.png" alt="">
+            <h6>Mobiles</h6>
+        </div>
+        <div class ="items">
+            <img src="assets/fashion.jpeg" alt="">
+            <h6>Fashions<i class="bi bi-chevron-down"></i></h6>
+        </div>
+        <div class ="items">
+            <img src="assets/electronics.jpg" alt="">
+            <h6>Electronic<i class="bi bi-chevron-down"></i></h6>
+        </div>
+        <div class ="items">
+            <img src="assets/home & furniture.webp" alt="">
+            <h6>Furniture<i class="bi bi-chevron-down"></i></h6>
+        </div>
+        <div class ="items">
+            <img src="assets/appliances.jpg" alt="">
+            <h6>Appliances</h6> 
+        </div>
+        <div class ="items">
+            <img src="assets/flight booking.avif" alt="">
+            <h6>Flights</h6>
+        </div>
+        <div class ="items">
+            <img src="assets/toys.jpg" alt="">
+            <h6>Beauty & Toys<i class="bi bi-chevron-down"></i></h6>
+        </div>
+        <div class ="items">
+            <img src="assets/two wheelers.avif" alt="">
+            <h6>Two Wheelers<i class="bi bi-chevron-down"></i></h6>
+        </div>
+
+    <section class="products">
+        <div class="item">
+            <img src="https://www.motoroids.com/wp-content/uploads/2021/02/Suzuki-Hayabusa-2021-front-end-1200x818.jpg" alt="">
+            <p>Hayabusa is one of the fastest bike.</p>
+            <button>Buy now</button>
+            <h2>Hayabusa</h2>
+        </div>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwnjRu2piR1q7hR_dy4OVQsuY2aPXU8rOhpg&s" alt="">
+            <p>One of the luxurious mobile in the world.</p>
+            <button>Buy now</button>
+            <h2>Iphone</h2>
+        </div>
+        <div class="item">
+            <img src="https://www.boat-lifestyle.com/cdn/shop/products/main2_b66dce6b-710d-49cb-9d1c-2bc8c9c0ab15.png?v=1645698328" alt="">
+            <p>Use headphone and don't disturb anyone.</p>
+            <button>Buy now</button>
+            <h2>Headphone</h2>
+        </div>
+        <div class="item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgU7SEa9hoDF8MoM3lxX6ZC7T42gfap52_c-09qfRWI0aP5bItzzveTqIrKjzP7maHCxnguXh9go3ChFBu0pIrLy7X7k9c85-Lvoxp-b8EYMx22QF8LLwrtN29LzjWI2M3i6x1lHo&usqp=CAc" alt="">
+            <p>seat peacefully and think about yourself.</p>
+            <button>Buy now</button>
+            <h2>Sofa</h2>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/61paoQad7gL.jpg" alt="">
+            <p>Every girl's favourite thing.</p>
+            <button>Buy now</button>
+            <h2>Teddy</h2>
+        </div>
+        <div class="item">
+            <img src="https://assets.winni.in/product/primary/2025/1/101382.jpeg?dpr=2&w=220" alt="">
+            <p>Best gift for birthday.</p>
+            <button>Buy now</button>
+            <h2>Chocolate</h2>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/510uTHyDqGL._AC_UF1000,1000_QL80_.jpg" alt="">
+            <p>A coder cant live without his laptop.</p>
+            <button>Buy now</button>
+            <h2>Laptop</h2>
+        </div>
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/960px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg" alt="">
+            <p>The best thing you should not ignore.</p>
+            <button>Buy now</button>
+            <h2>Book</h2>
+        </div>
+    </section>
+</body>
+</html>
